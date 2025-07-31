@@ -37,7 +37,7 @@ export default function App() {
 
   return (
     <div className="container">
-      <img src="/logo.png" alt="TrainAI Logo" className="logo" />
+      <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" />
       <h1>TrainAI Workout Generator</h1>
 
       <div className="form-step">
