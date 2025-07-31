@@ -27,7 +27,7 @@ export default function App() {
     setLoading(true);
     setResult('');
     try {
-      const res = await axios.post('http://127.0.0.1:8000/generate', formData);
+      const res = await axios.post('https://trainai-backend.onrender.com/generate', formData);
       setResult(res.data.plan);
     } catch (err) {
       setResult('Error generating workout plan.');
@@ -37,7 +37,11 @@ export default function App() {
 
   return (
     <div className="container">
-      <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" />
+    <img
+      src={`${process.env.PUBLIC_URL}/logo.png`}
+      alt="TrainAI Logo"
+      className="logo"
+    />
       <h1>TrainAI Workout Generator</h1>
 
       <div className="form-step">
