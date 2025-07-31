@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/trainai-frontend/static/css/main.848e6289.css",
-    "main.js": "/trainai-frontend/static/js/main.d101953b.js",
+    "main.js": "/trainai-frontend/static/js/main.61d937de.js",
     "index.html": "/trainai-frontend/index.html",
     "main.848e6289.css.map": "/trainai-frontend/static/css/main.848e6289.css.map",
-    "main.d101953b.js.map": "/trainai-frontend/static/js/main.d101953b.js.map"
+    "main.61d937de.js.map": "/trainai-frontend/static/js/main.61d937de.js.map"
   },
   "entrypoints": [
     "static/css/main.848e6289.css",
-    "static/js/main.d101953b.js"
+    "static/js/main.61d937de.js"
   ]
 }
