@@ -30,7 +30,7 @@ export default function App() {
       const res = await axios.post('https://trainai-backend.onrender.com/generate', formData);
       setResult(res.data.plan);
     } catch (err) {
-      setResult('Error generating workout plan.');
+      setResult(err.message);
     }
     setLoading(false);
   };
